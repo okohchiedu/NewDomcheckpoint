@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>SHOPPING CART</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+</head>
+<body>
+    <div class="container">
+        <div class="menu">
+          <div class="logo">
+            
+             shopping<span>Cart</span>
+          </div>
+          <ul>
+            <li class="active"><i class="fa-solid fa-house-user"></i>Home</li>
+            <li><i class="fa-regular fa-user"></i>user</li>
+            <li><i class="fa-solid fa-heart"></i>favourite</li>
+          </ul>
+          <ul>
+            <li><i class="fa-brands fa-twitter"></i>twitter</li>
+            <li><i class="fa-brands fa-facebook"></i>facebook</li>
+            <li><i class="fa-brands fa-instagram"></i>instagram</li>
+          </ul>
+        </div>
+        <div class="center"><center>
+            <div class="search">
+                <div class="form">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input type="text" placeholder="search....">
+                    <button>search</button>
+                </div>
+            </div>
+            <h2>PRODUCTS</h2>
+            <div class="list">
+                <div class="item" data-key="1">
+                  <div class="img" >
+                  <img src="shoe.jpeg" alt="">
+                  </div> 
+                  <div class="content">
+                    <div class="title">Nike Shoe</div>
+                  </div>
+                  <div class="price">$100.03</div>
+                  <input type="number" class="count" min="1" value="1">
+                  <button class="add">Add to cart</button>
+                  <button class="remove"><i class="fa-solid fa-trash-can"></i></button>
+                </div>
+            </div><br>
+            <div class="item" data-key="2">
+                <div class="img" >
+                <img src="luke.jpeg" alt="">
+                </div> 
+                <div class="content">
+                  <div class="title">luke</div>
+                </div>
+                <div class="price">$90.03</div>
+                <input type="number" class="count" min="1" value="1">
+                <button class="add">Add to cart</button>
+                <button class="remove"><i class="fa-solid fa-trash-can"></i></button>
+              </div>
+        </div>
+        
+        <div class="cart">
+           <div class="name">Cart</div>
+           <div class="listCart">
+            
+           </div>
+        </div>
+    </div>
+
+    
+    <script src="scripts.js"></script>
+</body>
+</html>
